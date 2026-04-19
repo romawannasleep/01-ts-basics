@@ -1,10 +1,10 @@
-const usernames: String[] = ["alice", "bob", "charlie"];
+const usernames: string[] = ["alice", "bob", "charlie"];
 
-const ratings: Number[] = [4.5, 3.8, 5];
+const ratings: number[] = [4.5, 3.8, 5];
 
 interface Product {
-    id: Number;
-    title: String;
+    id: number;
+    title: string;
 }
 const products: Product[] = [
   { id: 1, title: "Phone" },
